@@ -1,0 +1,2154 @@
+{
+  "version": 1,
+  "menus": [
+    {
+      "id": "mx_taco",
+      "name": "타코",
+      "category": "멕시칸",
+      "tags": ["handheld"],
+      "pork": false
+    },
+    {
+      "id": "mx_burrito",
+      "name": "부리또",
+      "category": "멕시칸",
+      "tags": ["handheld"],
+      "pork": false
+    },
+    {
+      "id": "th_padthai",
+      "name": "팟타이",
+      "category": "태국",
+      "tags": ["noodle", "sweet_savory"],
+      "pork": false
+    },
+    {
+      "id": "th_green_curry",
+      "name": "그린 커리",
+      "category": "태국",
+      "tags": ["curry", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "vn_pho",
+      "name": "쌀국수",
+      "category": "베트남",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "vn_banhmi",
+      "name": "반미",
+      "category": "베트남",
+      "tags": ["sandwich"],
+      "pork": false
+    },
+    {
+      "id": "in_butter_chicken",
+      "name": "버터 치킨",
+      "category": "인도",
+      "tags": ["curry"],
+      "pork": false
+    },
+    {
+      "id": "in_masala_dosa",
+      "name": "마살라 도사",
+      "category": "인도",
+      "tags": ["vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "md_kebab",
+      "name": "케밥",
+      "category": "중동",
+      "tags": ["grill"],
+      "pork": false
+    },
+    {
+      "id": "md_falafel",
+      "name": "팔라펠",
+      "category": "중동",
+      "tags": ["vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "fr_croissant",
+      "name": "크루아상",
+      "category": "베이커리",
+      "tags": ["bread"],
+      "pork": false
+    },
+    {
+      "id": "it_risotto",
+      "name": "리조또",
+      "category": "이탈리안",
+      "tags": ["rice"],
+      "pork": false
+    },
+    {
+      "id": "it_lasagna",
+      "name": "라자냐",
+      "category": "이탈리안",
+      "tags": ["baked", "pasta"],
+      "pork": false
+    },
+    {
+      "id": "us_caesar",
+      "name": "시저 샐러드",
+      "category": "샐러드",
+      "tags": ["greens"],
+      "pork": false
+    },
+    {
+      "id": "us_bbq",
+      "name": "바비큐",
+      "category": "아메리칸",
+      "tags": ["grill"],
+      "pork": true
+    },
+    {
+      "id": "mx_quesadilla",
+      "name": "퀘사디야",
+      "category": "멕시칸",
+      "tags": ["cheese", "griddle", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "mx_nachos",
+      "name": "나초",
+      "category": "멕시칸",
+      "tags": ["share", "snack"],
+      "pork": false
+    },
+    {
+      "id": "mx_fajitas",
+      "name": "파히타",
+      "category": "멕시칸",
+      "tags": ["grill", "wrap"],
+      "pork": false
+    },
+    {
+      "id": "mx_chimichanga",
+      "name": "치미창가",
+      "category": "멕시칸",
+      "tags": ["fried", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "mx_churros",
+      "name": "추로스",
+      "category": "멕시칸",
+      "tags": ["dessert", "fried"],
+      "pork": false
+    },
+    {
+      "id": "mx_tortilla_soup",
+      "name": "또르티야 수프",
+      "category": "멕시칸",
+      "tags": ["soup"],
+      "pork": false
+    },
+    {
+      "id": "mx_tostada",
+      "name": "토스타다",
+      "category": "멕시칸",
+      "tags": ["handheld", "fried"],
+      "pork": false
+    },
+    {
+      "id": "mx_elote",
+      "name": "엘로테(옥수수)",
+      "category": "멕시칸",
+      "tags": ["street", "vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "mx_carnitas",
+      "name": "카르니타스",
+      "category": "멕시칸",
+      "tags": ["pork", "stew"],
+      "pork": true
+    },
+    {
+      "id": "mx_barbacoa",
+      "name": "바르바코아",
+      "category": "멕시칸",
+      "tags": ["beef", "stew"],
+      "pork": false
+    },
+    {
+      "id": "mx_posole",
+      "name": "포솔레",
+      "category": "멕시칸",
+      "tags": ["soup", "hominy"],
+      "pork": false
+    },
+    {
+      "id": "th_tom_yum",
+      "name": "똠얌꿍",
+      "category": "태국",
+      "tags": ["soup", "spicy", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "th_tom_kha",
+      "name": "똠카가이",
+      "category": "태국",
+      "tags": ["soup", "coconut", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "th_pad_kra_pao",
+      "name": "팟카파오",
+      "category": "태국",
+      "tags": ["stirfry", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "th_mango_sticky_rice",
+      "name": "망고 스티키 라이스",
+      "category": "태국",
+      "tags": ["dessert", "rice"],
+      "pork": false
+    },
+    {
+      "id": "th_som_tam",
+      "name": "쏨땀(파파야 샐러드)",
+      "category": "태국",
+      "tags": ["salad", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "th_khao_soi",
+      "name": "카오 소이",
+      "category": "태국",
+      "tags": ["noodle", "curry"],
+      "pork": false
+    },
+    {
+      "id": "th_pad_see_ew",
+      "name": "팟씨유",
+      "category": "태국",
+      "tags": ["noodle", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "th_penang_curry",
+      "name": "페낭 커리",
+      "category": "태국",
+      "tags": ["curry", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "th_massaman",
+      "name": "마사만 커리",
+      "category": "태국",
+      "tags": ["curry", "sweet_savory"],
+      "pork": false
+    },
+    {
+      "id": "th_khao_pad",
+      "name": "카오팟(볶음밥)",
+      "category": "태국",
+      "tags": ["rice", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "vn_buncha",
+      "name": "분짜",
+      "category": "베트남",
+      "tags": ["noodle", "grill", "pork"],
+      "pork": true
+    },
+    {
+      "id": "vn_bunbohue",
+      "name": "분보후에",
+      "category": "베트남",
+      "tags": ["noodle", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "vn_bun_thit_nuong",
+      "name": "분티뗏느엉",
+      "category": "베트남",
+      "tags": ["noodle", "grill"],
+      "pork": true
+    },
+    {
+      "id": "vn_goi_cuon",
+      "name": "고이꾸언(월남쌈)",
+      "category": "베트남",
+      "tags": ["wrap", "fresh"],
+      "pork": false
+    },
+    {
+      "id": "vn_com_tam",
+      "name": "껌땀",
+      "category": "베트남",
+      "tags": ["rice", "pork"],
+      "pork": true
+    },
+    {
+      "id": "vn_banh_xeo",
+      "name": "반쎄오",
+      "category": "베트남",
+      "tags": ["griddle", "crispy"],
+      "pork": false
+    },
+    {
+      "id": "vn_bun_rieu",
+      "name": "분리우",
+      "category": "베트남",
+      "tags": ["noodle", "soup", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "vn_banh_cuon",
+      "name": "반꿘",
+      "category": "베트남",
+      "tags": ["steamed", "rice_roll"],
+      "pork": false
+    },
+    {
+      "id": "vn_ca_phe_sua",
+      "name": "연유커피",
+      "category": "베트남",
+      "tags": ["drink", "sweet"],
+      "pork": false
+    },
+    {
+      "id": "vn_hu_tieu",
+      "name": "후띠우",
+      "category": "베트남",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "in_chicken_tikka",
+      "name": "치킨 티카",
+      "category": "인도",
+      "tags": ["grill", "spice"],
+      "pork": false
+    },
+    {
+      "id": "in_naan",
+      "name": "난",
+      "category": "인도",
+      "tags": ["bread", "tandoor"],
+      "pork": false
+    },
+    {
+      "id": "in_palak_paneer",
+      "name": "팔락 파니르",
+      "category": "인도",
+      "tags": ["vegetarian", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "in_chana_masala",
+      "name": "차나 마살라",
+      "category": "인도",
+      "tags": ["vegetarian", "legume"],
+      "pork": false
+    },
+    {
+      "id": "in_biryani",
+      "name": "비리야니",
+      "category": "인도",
+      "tags": ["rice", "spice"],
+      "pork": false
+    },
+    {
+      "id": "in_tandoori_chicken",
+      "name": "탄두리 치킨",
+      "category": "인도",
+      "tags": ["grill", "spice"],
+      "pork": false
+    },
+    {
+      "id": "in_rajma",
+      "name": "라지마",
+      "category": "인도",
+      "tags": ["vegetarian", "legume"],
+      "pork": false
+    },
+    {
+      "id": "in_samosa",
+      "name": "사모사",
+      "category": "인도",
+      "tags": ["fried", "snack"],
+      "pork": false
+    },
+    {
+      "id": "in_vada_pav",
+      "name": "바다파브",
+      "category": "인도",
+      "tags": ["handheld", "street"],
+      "pork": false
+    },
+    {
+      "id": "in_dal_makhani",
+      "name": "달 마카니",
+      "category": "인도",
+      "tags": ["vegetarian", "lentil"],
+      "pork": false
+    },
+    {
+      "id": "in_rogan_josh",
+      "name": "로간 조쉬",
+      "category": "인도",
+      "tags": ["curry", "lamb"],
+      "pork": false
+    },
+    {
+      "id": "md_shawarma",
+      "name": "샤와르마",
+      "category": "중동",
+      "tags": ["wrap", "grill"],
+      "pork": false
+    },
+    {
+      "id": "md_hummus",
+      "name": "후무스",
+      "category": "중동",
+      "tags": ["dip", "vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "md_tabouli",
+      "name": "타불레",
+      "category": "중동",
+      "tags": ["salad", "herb"],
+      "pork": false
+    },
+    {
+      "id": "md_baba_ghanoush",
+      "name": "바바가누쉬",
+      "category": "중동",
+      "tags": ["dip", "vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "md_mansaf",
+      "name": "만사프",
+      "category": "중동",
+      "tags": ["rice", "lamb"],
+      "pork": false
+    },
+    {
+      "id": "md_kofta",
+      "name": "쿠프타",
+      "category": "중동",
+      "tags": ["grill", "meatball"],
+      "pork": false
+    },
+    {
+      "id": "md_shakshuka",
+      "name": "샥슈카",
+      "category": "중동",
+      "tags": ["egg", "tomato"],
+      "pork": false
+    },
+    {
+      "id": "md_mujadara",
+      "name": "무자다라",
+      "category": "중동",
+      "tags": ["rice", "lentil", "vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "md_pita",
+      "name": "피타",
+      "category": "중동",
+      "tags": ["bread"],
+      "pork": false
+    },
+    {
+      "id": "md_baklava",
+      "name": "바클라바",
+      "category": "중동",
+      "tags": ["dessert", "nuts"],
+      "pork": false
+    },
+    {
+      "id": "it_margherita",
+      "name": "마르게리타 피자",
+      "category": "이탈리안",
+      "tags": ["pizza", "baked"],
+      "pork": false
+    },
+    {
+      "id": "it_pepperoni",
+      "name": "페퍼로니 피자",
+      "category": "이탈리안",
+      "tags": ["pizza", "baked"],
+      "pork": true
+    },
+    {
+      "id": "it_bolognese",
+      "name": "볼로네제",
+      "category": "이탈리안",
+      "tags": ["pasta", "meat_sauce"],
+      "pork": true
+    },
+    {
+      "id": "it_pesto",
+      "name": "바질 페스토 파스타",
+      "category": "이탈리안",
+      "tags": ["pasta", "herb"],
+      "pork": false
+    },
+    {
+      "id": "it_fettuccine_alfredo",
+      "name": "페투치네 알프레도",
+      "category": "이탈리안",
+      "tags": ["pasta", "cream"],
+      "pork": false
+    },
+    {
+      "id": "it_prosciutto_melon",
+      "name": "프로슈토 멜론",
+      "category": "이탈리안",
+      "tags": ["antipasti"],
+      "pork": true
+    },
+    {
+      "id": "it_caprese",
+      "name": "카프레제",
+      "category": "이탈리안",
+      "tags": ["salad", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "it_osso_buco",
+      "name": "오소부코",
+      "category": "이탈리안",
+      "tags": ["stew", "veal"],
+      "pork": false
+    },
+    {
+      "id": "it_tiramisu",
+      "name": "티라미수",
+      "category": "이탈리안",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "it_arancini",
+      "name": "아란치니",
+      "category": "이탈리안",
+      "tags": ["fried", "rice"],
+      "pork": false
+    },
+    {
+      "id": "it_bruschetta",
+      "name": "브루스케타",
+      "category": "이탈리안",
+      "tags": ["bread", "antipasti"],
+      "pork": false
+    },
+    {
+      "id": "bk_baguette",
+      "name": "바게트",
+      "category": "베이커리",
+      "tags": ["bread"],
+      "pork": false
+    },
+    {
+      "id": "bk_bagel",
+      "name": "베이글",
+      "category": "베이커리",
+      "tags": ["bread"],
+      "pork": false
+    },
+    {
+      "id": "bk_canele",
+      "name": "까눌레",
+      "category": "베이커리",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "bk_tart_lemon",
+      "name": "레몬 타르트",
+      "category": "베이커리",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "bk_muffin_blueberry",
+      "name": "블루베리 머핀",
+      "category": "베이커리",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "bk_scone",
+      "name": "스콘",
+      "category": "베이커리",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "bk_danish",
+      "name": "데니시",
+      "category": "베이커리",
+      "tags": ["dessert", "butter"],
+      "pork": false
+    },
+    {
+      "id": "bk_pretzel",
+      "name": "프레첼",
+      "category": "베이커리",
+      "tags": ["snack", "bread"],
+      "pork": false
+    },
+    {
+      "id": "bk_croque_monsieur",
+      "name": "크로크무슈",
+      "category": "베이커리",
+      "tags": ["sandwich", "cheese"],
+      "pork": true
+    },
+    {
+      "id": "bk_ciabatta",
+      "name": "차바타",
+      "category": "베이커리",
+      "tags": ["bread"],
+      "pork": false
+    },
+    {
+      "id": "sd_greek",
+      "name": "그릭 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "sd_cobb",
+      "name": "콥 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "egg", "bacon"],
+      "pork": true
+    },
+    {
+      "id": "sd_waldorf",
+      "name": "월도프 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "fruit", "nuts"],
+      "pork": false
+    },
+    {
+      "id": "sd_nicoise",
+      "name": "니수아즈 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "seafood", "egg"],
+      "pork": false
+    },
+    {
+      "id": "sd_quinoa",
+      "name": "퀴노아 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "grain", "vegetarian"],
+      "pork": false
+    },
+    {
+      "id": "sd_kale",
+      "name": "케일 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "greens"],
+      "pork": false
+    },
+    {
+      "id": "sd_caesar_chicken",
+      "name": "치킨 시저 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "sd_caprese",
+      "name": "카프레제 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "sd_beet_goat",
+      "name": "비트 고트치즈 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "sd_asian_noodle",
+      "name": "아시안 누들 샐러드",
+      "category": "샐러드",
+      "tags": ["salad", "noodle"],
+      "pork": false
+    },
+    {
+      "id": "us_hotdog",
+      "name": "핫도그",
+      "category": "아메리칸",
+      "tags": ["handheld"],
+      "pork": true
+    },
+    {
+      "id": "us_buffalo_wings",
+      "name": "버팔로 윙",
+      "category": "아메리칸",
+      "tags": ["fried", "chicken", "spicy_optional"],
+      "pork": false
+    },
+    {
+      "id": "us_mac_cheese",
+      "name": "맥앤치즈",
+      "category": "아메리칸",
+      "tags": ["pasta", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "us_meatloaf",
+      "name": "미트로프",
+      "category": "아메리칸",
+      "tags": ["baked", "beef"],
+      "pork": true
+    },
+    {
+      "id": "us_chili",
+      "name": "칠리 콘 카르네",
+      "category": "아메리칸",
+      "tags": ["stew", "spicy_optional"],
+      "pork": true
+    },
+    {
+      "id": "us_pancakes",
+      "name": "팬케이크",
+      "category": "아메리칸",
+      "tags": ["breakfast", "dessert"],
+      "pork": false
+    },
+    {
+      "id": "us_reuben",
+      "name": "루벤 샌드위치",
+      "category": "아메리칸",
+      "tags": ["sandwich"],
+      "pork": true
+    },
+    {
+      "id": "us_philly_cheesesteak",
+      "name": "필리 치즈스테이크",
+      "category": "아메리칸",
+      "tags": ["sandwich", "beef"],
+      "pork": true
+    },
+    {
+      "id": "us_cobbler",
+      "name": "코블러 디저트",
+      "category": "아메리칸",
+      "tags": ["dessert", "fruit"],
+      "pork": false
+    },
+    {
+      "id": "us_jambalaya",
+      "name": "잠발라야",
+      "category": "아메리칸",
+      "tags": ["rice", "spicy_optional", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "ko_bibimbap",
+      "name": "비빔밥",
+      "category": "한식",
+      "tags": ["rice", "veggie"],
+      "pork": false
+    },
+    {
+      "id": "ko_kimchi_jjigae",
+      "name": "김치찌개",
+      "category": "한식",
+      "tags": ["stew", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "ko_bulgogi",
+      "name": "불고기",
+      "category": "한식",
+      "tags": ["beef", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "ko_naengmyeon",
+      "name": "냉면",
+      "category": "한식",
+      "tags": ["noodle", "cold"],
+      "pork": false
+    },
+    {
+      "id": "ko_tteokbokki",
+      "name": "떡볶이",
+      "category": "한식",
+      "tags": ["spicy", "street"],
+      "pork": false
+    },
+    {
+      "id": "ko_samgyeopsal",
+      "name": "삼겹살",
+      "category": "한식",
+      "tags": ["grill", "pork"],
+      "pork": true
+    },
+    {
+      "id": "ko_galbitang",
+      "name": "갈비탕",
+      "category": "한식",
+      "tags": ["soup", "beef"],
+      "pork": false
+    },
+    {
+      "id": "ko_japchae",
+      "name": "잡채",
+      "category": "한식",
+      "tags": ["stirfry", "noodle"],
+      "pork": false
+    },
+    {
+      "id": "ko_haemul_pajeon",
+      "name": "해물파전",
+      "category": "한식",
+      "tags": ["seafood", "fried"],
+      "pork": false
+    },
+    {
+      "id": "ko_kalguksu",
+      "name": "칼국수",
+      "category": "한식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "ko_bossam",
+      "name": "보쌈",
+      "category": "한식",
+      "tags": ["boiled", "wrap"],
+      "pork": true
+    },
+    {
+      "id": "ko_sundubu",
+      "name": "순두부찌개",
+      "category": "한식",
+      "tags": ["stew", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "ko_godeungeo_gui",
+      "name": "고등어구이",
+      "category": "한식",
+      "tags": ["seafood", "grill"],
+      "pork": false
+    },
+    {
+      "id": "ko_dakgalbi",
+      "name": "닭갈비",
+      "category": "한식",
+      "tags": ["spicy", "stirfry", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_gimbap",
+      "name": "김밥",
+      "category": "한식",
+      "tags": ["rice", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "ko_kimchi_bokkeumbap",
+      "name": "김치볶음밥",
+      "category": "한식",
+      "tags": ["rice", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "ko_seolleongtang",
+      "name": "설렁탕",
+      "category": "한식",
+      "tags": ["soup", "beef"],
+      "pork": false
+    },
+    {
+      "id": "ko_samgyetang",
+      "name": "삼계탕",
+      "category": "한식",
+      "tags": ["soup", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_miyeokguk",
+      "name": "미역국",
+      "category": "한식",
+      "tags": ["soup", "seaweed"],
+      "pork": false
+    },
+    {
+      "id": "ko_jeonbokjuk",
+      "name": "전복죽",
+      "category": "한식",
+      "tags": ["porridge", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "ko_sujebi",
+      "name": "수제비",
+      "category": "한식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "ko_makguksu",
+      "name": "막국수",
+      "category": "한식",
+      "tags": ["noodle", "cold"],
+      "pork": false
+    },
+    {
+      "id": "ko_budae",
+      "name": "부대찌개",
+      "category": "한식",
+      "tags": ["stew", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "ko_kongnamul_gukbap",
+      "name": "콩나물국밥",
+      "category": "한식",
+      "tags": ["soup", "rice"],
+      "pork": false
+    },
+    {
+      "id": "ko_chueotang",
+      "name": "추어탕",
+      "category": "한식",
+      "tags": ["soup", "fish"],
+      "pork": false
+    },
+    {
+      "id": "ko_andong_jjimdak",
+      "name": "안동찜닭",
+      "category": "한식",
+      "tags": ["braise", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_gamjatang",
+      "name": "감자탕",
+      "category": "한식",
+      "tags": ["stew", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "ko_kongguksu",
+      "name": "콩국수",
+      "category": "한식",
+      "tags": ["noodle", "cold", "veggie"],
+      "pork": false
+    },
+    {
+      "id": "ko_mandu",
+      "name": "만두",
+      "category": "한식",
+      "tags": ["dumpling", "steam"],
+      "pork": true
+    },
+    {
+      "id": "ko_haemultang",
+      "name": "해물탕",
+      "category": "한식",
+      "tags": ["soup", "seafood", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "ko_jogae_gui",
+      "name": "조개구이",
+      "category": "한식",
+      "tags": ["seafood", "grill"],
+      "pork": false
+    },
+    {
+      "id": "ko_ganjang_gejang",
+      "name": "간장게장",
+      "category": "한식",
+      "tags": ["seafood", "marinated"],
+      "pork": false
+    },
+    {
+      "id": "ko_yukhoe",
+      "name": "육회",
+      "category": "한식",
+      "tags": ["beef", "raw"],
+      "pork": false
+    },
+    {
+      "id": "ko_ojingeo_bokkeum",
+      "name": "오징어볶음",
+      "category": "한식",
+      "tags": ["seafood", "spicy", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "ko_galbi_jjim",
+      "name": "갈비찜",
+      "category": "한식",
+      "tags": ["braise", "beef"],
+      "pork": false
+    },
+    {
+      "id": "ko_dakbokkeumtang",
+      "name": "닭볶음탕",
+      "category": "한식",
+      "tags": ["stew", "spicy", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_dubu_kimchi",
+      "name": "두부김치",
+      "category": "한식",
+      "tags": ["stirfry", "side"],
+      "pork": true
+    },
+    {
+      "id": "ko_sundae_guk",
+      "name": "순대국",
+      "category": "한식",
+      "tags": ["soup"],
+      "pork": true
+    },
+    {
+      "id": "ko_dak_han_mari",
+      "name": "닭한마리",
+      "category": "한식",
+      "tags": ["hotpot", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_tteokguk",
+      "name": "떡국",
+      "category": "한식",
+      "tags": ["soup", "rice_cake"],
+      "pork": false
+    },
+    {
+      "id": "ko_yukgaejang",
+      "name": "육개장",
+      "category": "한식",
+      "tags": ["soup", "spicy", "beef"],
+      "pork": false
+    },
+    {
+      "id": "ko_bossam_kimchi",
+      "name": "보쌈김치",
+      "category": "한식",
+      "tags": ["side", "kimchi"],
+      "pork": true
+    },
+    {
+      "id": "ko_jjolmyeon",
+      "name": "쫄면",
+      "category": "한식",
+      "tags": ["noodle", "spicy", "cold"],
+      "pork": false
+    },
+    {
+      "id": "ko_modeum_jeon",
+      "name": "모둠전",
+      "category": "한식",
+      "tags": ["fried", "assorted"],
+      "pork": false
+    },
+    {
+      "id": "ko_jokbal",
+      "name": "족발",
+      "category": "한식",
+      "tags": ["braise", "pork"],
+      "pork": true
+    },
+    {
+      "id": "ko_je_yuk_bokkeum",
+      "name": "제육볶음",
+      "category": "한식",
+      "tags": ["stirfry", "spicy", "pork"],
+      "pork": true
+    },
+    {
+      "id": "ko_godeulppaegi_muchim",
+      "name": "고들빼기무침",
+      "category": "한식",
+      "tags": ["side", "veggie"],
+      "pork": false
+    },
+    {
+      "id": "ko_kimchi_jeon",
+      "name": "김치전",
+      "category": "한식",
+      "tags": ["fried", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "ko_chimaek",
+      "name": "치맥",
+      "category": "한식",
+      "tags": ["fried", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "ko_cheonggukjang",
+      "name": "청국장",
+      "category": "한식",
+      "tags": ["stew", "fermented", "spicy_optional"],
+      "pork": true
+    },
+    {
+      "id": "jp_sushi",
+      "name": "초밥",
+      "category": "일식",
+      "tags": ["seafood", "rice"],
+      "pork": false
+    },
+    {
+      "id": "jp_ramen",
+      "name": "라멘",
+      "category": "일식",
+      "tags": ["noodle"],
+      "pork": true
+    },
+    {
+      "id": "jp_katsudon",
+      "name": "가츠동",
+      "category": "일식",
+      "tags": ["fried", "ricebowl"],
+      "pork": true
+    },
+    {
+      "id": "jp_japanese_curry",
+      "name": "일본식 카레",
+      "category": "일식",
+      "tags": ["curry"],
+      "pork": false
+    },
+    {
+      "id": "jp_udon",
+      "name": "우동",
+      "category": "일식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "jp_sashimi",
+      "name": "사시미",
+      "category": "일식",
+      "tags": ["seafood", "raw"],
+      "pork": false
+    },
+    {
+      "id": "jp_okonomiyaki",
+      "name": "오코노미야키",
+      "category": "일식",
+      "tags": ["griddle"],
+      "pork": true
+    },
+    {
+      "id": "jp_gyudon",
+      "name": "규동",
+      "category": "일식",
+      "tags": ["beef", "ricebowl"],
+      "pork": false
+    },
+    {
+      "id": "jp_tendon",
+      "name": "텐동",
+      "category": "일식",
+      "tags": ["fried", "ricebowl"],
+      "pork": false
+    },
+    {
+      "id": "jp_tonkatsu",
+      "name": "돈카츠",
+      "category": "일식",
+      "tags": ["fried", "pork"],
+      "pork": true
+    },
+    {
+      "id": "jp_takoyaki",
+      "name": "타코야키",
+      "category": "일식",
+      "tags": ["street", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "jp_yakisoba",
+      "name": "야키소바",
+      "category": "일식",
+      "tags": ["stirfry", "noodle"],
+      "pork": false
+    },
+    {
+      "id": "jp_shabu_shabu",
+      "name": "샤부샤부",
+      "category": "일식",
+      "tags": ["hotpot"],
+      "pork": false
+    },
+    {
+      "id": "jp_unagi_don",
+      "name": "우나기동",
+      "category": "일식",
+      "tags": ["seafood", "grill", "ricebowl"],
+      "pork": false
+    },
+    {
+      "id": "jp_chirashizushi",
+      "name": "치라시 스시",
+      "category": "일식",
+      "tags": ["seafood", "ricebowl"],
+      "pork": false
+    },
+    {
+      "id": "jp_curry_udon",
+      "name": "카레우동",
+      "category": "일식",
+      "tags": ["noodle", "curry"],
+      "pork": false
+    },
+    {
+      "id": "jp_sukiyaki",
+      "name": "스키야키",
+      "category": "일식",
+      "tags": ["hotpot", "beef"],
+      "pork": false
+    },
+    {
+      "id": "jp_miso_soup",
+      "name": "미소시루",
+      "category": "일식",
+      "tags": ["soup"],
+      "pork": false
+    },
+    {
+      "id": "jp_tempura",
+      "name": "덴푸라",
+      "category": "일식",
+      "tags": ["fried", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "jp_agedashi_tofu",
+      "name": "아게다시도후",
+      "category": "일식",
+      "tags": ["tofu", "fried"],
+      "pork": false
+    },
+    {
+      "id": "jp_karaage",
+      "name": "가라아게",
+      "category": "일식",
+      "tags": ["fried", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "jp_oden",
+      "name": "오뎅",
+      "category": "일식",
+      "tags": ["soup", "hotpot"],
+      "pork": false
+    },
+    {
+      "id": "jp_natto_rice",
+      "name": "낫토밥",
+      "category": "일식",
+      "tags": ["rice", "fermented"],
+      "pork": false
+    },
+    {
+      "id": "jp_onigiri",
+      "name": "오니기리",
+      "category": "일식",
+      "tags": ["rice", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "jp_tamagoyaki",
+      "name": "다마고야키",
+      "category": "일식",
+      "tags": ["egg", "sweet_savory"],
+      "pork": false
+    },
+    {
+      "id": "jp_hiyashi_chuka",
+      "name": "히야시츄카",
+      "category": "일식",
+      "tags": ["noodle", "cold"],
+      "pork": false
+    },
+    {
+      "id": "jp_zaru_soba",
+      "name": "자루소바",
+      "category": "일식",
+      "tags": ["noodle", "cold"],
+      "pork": false
+    },
+    {
+      "id": "jp_kake_soba",
+      "name": "가케소바",
+      "category": "일식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "jp_tororo_gohan",
+      "name": "토로로 밥",
+      "category": "일식",
+      "tags": ["rice", "yam"],
+      "pork": false
+    },
+    {
+      "id": "jp_saba_shioyaki",
+      "name": "고등어 소금구이",
+      "category": "일식",
+      "tags": ["seafood", "grill"],
+      "pork": false
+    },
+    {
+      "id": "jp_butabara_don",
+      "name": "부타바라동",
+      "category": "일식",
+      "tags": ["pork", "ricebowl"],
+      "pork": true
+    },
+    {
+      "id": "jp_mentaiko_pasta",
+      "name": "멘타이코 파스타",
+      "category": "일식",
+      "tags": ["noodle", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "jp_hambagu",
+      "name": "함바그",
+      "category": "일식",
+      "tags": ["beef", "patty"],
+      "pork": false
+    },
+    {
+      "id": "jp_yakitori",
+      "name": "야키토리",
+      "category": "일식",
+      "tags": ["grill", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "jp_tonkotsu_ramen",
+      "name": "돈코츠 라멘",
+      "category": "일식",
+      "tags": ["noodle", "pork"],
+      "pork": true
+    },
+    {
+      "id": "jp_shoyu_ramen",
+      "name": "쇼유 라멘",
+      "category": "일식",
+      "tags": ["noodle"],
+      "pork": false
+    },
+    {
+      "id": "jp_miso_ramen",
+      "name": "미소 라멘",
+      "category": "일식",
+      "tags": ["noodle"],
+      "pork": false
+    },
+    {
+      "id": "jp_okayu",
+      "name": "오카유",
+      "category": "일식",
+      "tags": ["porridge"],
+      "pork": false
+    },
+    {
+      "id": "jp_gomaae",
+      "name": "시금치 고마아에",
+      "category": "일식",
+      "tags": ["side", "veggie"],
+      "pork": false
+    },
+    {
+      "id": "jp_kitsune_udon",
+      "name": "키츠네 우동",
+      "category": "일식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "jp_tanuki_udon",
+      "name": "타누키 우동",
+      "category": "일식",
+      "tags": ["noodle", "soup"],
+      "pork": false
+    },
+    {
+      "id": "jp_ikura_don",
+      "name": "이쿠라동",
+      "category": "일식",
+      "tags": ["seafood", "ricebowl"],
+      "pork": false
+    },
+    {
+      "id": "jp_sukeroku_sushi",
+      "name": "스케로쿠 스시",
+      "category": "일식",
+      "tags": ["sushi", "assorted"],
+      "pork": false
+    },
+    {
+      "id": "jp_oshizushi",
+      "name": "오시즈시",
+      "category": "일식",
+      "tags": ["sushi", "pressed"],
+      "pork": false
+    },
+    {
+      "id": "jp_okowa",
+      "name": "오코와",
+      "category": "일식",
+      "tags": ["rice", "sticky"],
+      "pork": false
+    },
+    {
+      "id": "jp_gyoza",
+      "name": "교자(일식 만두)",
+      "category": "일식",
+      "tags": ["dumpling", "fried"],
+      "pork": true
+    },
+    {
+      "id": "jp_omurice",
+      "name": "오므라이스",
+      "category": "일식",
+      "tags": ["rice", "egg"],
+      "pork": false
+    },
+    {
+      "id": "jp_katsu_sando",
+      "name": "가츠산도",
+      "category": "일식",
+      "tags": ["sandwich", "pork"],
+      "pork": true
+    },
+    {
+      "id": "jp_yakimeshi",
+      "name": "일식 볶음밥",
+      "category": "일식",
+      "tags": ["rice", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "jp_nikujaga",
+      "name": "니쿠자가",
+      "category": "일식",
+      "tags": ["stew", "potato"],
+      "pork": true
+    },
+    {
+      "id": "cn_jjajangmyeon",
+      "name": "짜장면",
+      "category": "중식",
+      "tags": ["noodle"],
+      "pork": false
+    },
+    {
+      "id": "cn_jjamppong",
+      "name": "짬뽕",
+      "category": "중식",
+      "tags": ["noodle", "spicy", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "cn_mapo_tofu",
+      "name": "마파두부",
+      "category": "중식",
+      "tags": ["spicy", "tofu"],
+      "pork": false
+    },
+    {
+      "id": "cn_kung_pao_chicken",
+      "name": "궁보계정",
+      "category": "중식",
+      "tags": ["spicy", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "cn_tang_su_yuk",
+      "name": "탕수육",
+      "category": "중식",
+      "tags": ["fried", "sweet_sour"],
+      "pork": true
+    },
+    {
+      "id": "cn_guo_baorou",
+      "name": "꿔바로우",
+      "category": "중식",
+      "tags": ["fried", "sweet_sour"],
+      "pork": true
+    },
+    {
+      "id": "cn_hotpot",
+      "name": "훠궈",
+      "category": "중식",
+      "tags": ["hotpot", "spicy_optional"],
+      "pork": false
+    },
+    {
+      "id": "cn_yurinchi",
+      "name": "유린기",
+      "category": "중식",
+      "tags": ["fried", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "cn_malatang",
+      "name": "마라탕",
+      "category": "중식",
+      "tags": ["spicy", "soup"],
+      "pork": false
+    },
+    {
+      "id": "cn_mala_xiang_guo",
+      "name": "마라샹궈",
+      "category": "중식",
+      "tags": ["spicy", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "cn_chao_fan",
+      "name": "볶음밥",
+      "category": "중식",
+      "tags": ["rice", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "cn_dim_sum",
+      "name": "딤섬",
+      "category": "중식",
+      "tags": ["steamed"],
+      "pork": false
+    },
+    {
+      "id": "cn_peking_duck",
+      "name": "베이징덕",
+      "category": "중식",
+      "tags": ["roast", "duck"],
+      "pork": false
+    },
+    {
+      "id": "cn_chow_mein",
+      "name": "차우면",
+      "category": "중식",
+      "tags": ["noodle", "stirfry"],
+      "pork": false
+    },
+    {
+      "id": "cn_chop_suey",
+      "name": "촙수이",
+      "category": "중식",
+      "tags": ["stirfry"],
+      "pork": false
+    },
+    {
+      "id": "cn_suanla_tang",
+      "name": "산라탕",
+      "category": "중식",
+      "tags": ["soup", "spicy_sour"],
+      "pork": false
+    },
+    {
+      "id": "cn_wonton_soup",
+      "name": "완탕",
+      "category": "중식",
+      "tags": ["dumpling", "soup"],
+      "pork": false
+    },
+    {
+      "id": "cn_char_siu",
+      "name": "차슈",
+      "category": "중식",
+      "tags": ["roast", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_siuyuk",
+      "name": "시우육",
+      "category": "중식",
+      "tags": ["roast", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_lu_rou_fan",
+      "name": "루로우판",
+      "category": "중식",
+      "tags": ["stew", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_hainanese_chicken_rice",
+      "name": "하이난 치킨라이스",
+      "category": "중식",
+      "tags": ["rice", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "cn_tw_beef_noodle",
+      "name": "대만 우육면",
+      "category": "중식",
+      "tags": ["noodle", "beef"],
+      "pork": false
+    },
+    {
+      "id": "cn_lanzhou_lamian",
+      "name": "란저우 라미엔",
+      "category": "중식",
+      "tags": ["noodle", "beef"],
+      "pork": false
+    },
+    {
+      "id": "cn_shumai",
+      "name": "쇼마이",
+      "category": "중식",
+      "tags": ["dumpling", "steam"],
+      "pork": true
+    },
+    {
+      "id": "cn_xiao_long_bao",
+      "name": "샤오롱바오",
+      "category": "중식",
+      "tags": ["dumpling", "steam"],
+      "pork": true
+    },
+    {
+      "id": "cn_dan_dan_noodles",
+      "name": "탄탄면",
+      "category": "중식",
+      "tags": ["noodle", "spicy", "sesame"],
+      "pork": true
+    },
+    {
+      "id": "cn_liangpi",
+      "name": "양장피",
+      "category": "중식",
+      "tags": ["noodle", "cold"],
+      "pork": false
+    },
+    {
+      "id": "cn_yuxiang_qiezi",
+      "name": "어향가지",
+      "category": "중식",
+      "tags": ["stirfry", "spicy_optional"],
+      "pork": false
+    },
+    {
+      "id": "cn_hong_shao_rou",
+      "name": "홍소육",
+      "category": "중식",
+      "tags": ["braise", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_three_cup_chicken",
+      "name": "삼컵치킨",
+      "category": "중식",
+      "tags": ["stirfry", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "cn_kung_pao_shrimp",
+      "name": "궁보새우",
+      "category": "중식",
+      "tags": ["stirfry", "seafood", "spicy_optional"],
+      "pork": false
+    },
+    {
+      "id": "cn_crispy_noodles",
+      "name": "바삭면",
+      "category": "중식",
+      "tags": ["noodle", "fried"],
+      "pork": true
+    },
+    {
+      "id": "cn_congee",
+      "name": "죽",
+      "category": "중식",
+      "tags": ["porridge"],
+      "pork": false
+    },
+    {
+      "id": "cn_cashew_chicken",
+      "name": "캐슈넛 치킨",
+      "category": "중식",
+      "tags": ["stirfry", "nuts"],
+      "pork": false
+    },
+    {
+      "id": "cn_black_bean_beef",
+      "name": "블랙빈 소고기",
+      "category": "중식",
+      "tags": ["stirfry", "beef"],
+      "pork": false
+    },
+    {
+      "id": "cn_sweet_sour_pork",
+      "name": "탕추육",
+      "category": "중식",
+      "tags": ["stirfry", "sweet_sour"],
+      "pork": true
+    },
+    {
+      "id": "cn_jian_dui",
+      "name": "젠두이",
+      "category": "중식",
+      "tags": ["dessert", "fried"],
+      "pork": false
+    },
+    {
+      "id": "cn_steamed_fish",
+      "name": "청증어",
+      "category": "중식",
+      "tags": ["steamed", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "cn_lu_wei",
+      "name": "루웨이 모둠",
+      "category": "중식",
+      "tags": ["stew"],
+      "pork": true
+    },
+    {
+      "id": "cn_kou_shui_ji",
+      "name": "구수이치",
+      "category": "중식",
+      "tags": ["cold", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "cn_tw_chicken_cutlet",
+      "name": "대만 치킨커틀렛",
+      "category": "중식",
+      "tags": ["fried", "chicken"],
+      "pork": true
+    },
+    {
+      "id": "cn_jiangchang_yuksa",
+      "name": "경장육사",
+      "category": "중식",
+      "tags": ["stirfry", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_mapo_noodles",
+      "name": "마파면",
+      "category": "중식",
+      "tags": ["noodle", "spicy"],
+      "pork": false
+    },
+    {
+      "id": "cn_tea_egg",
+      "name": "차에그",
+      "category": "중식",
+      "tags": ["egg", "snack"],
+      "pork": false
+    },
+    {
+      "id": "cn_youtiao",
+      "name": "유탸오",
+      "category": "중식",
+      "tags": ["fried", "bread"],
+      "pork": false
+    },
+    {
+      "id": "cn_tw_bento",
+      "name": "대만 도시락(변당)",
+      "category": "중식",
+      "tags": ["bento", "pork"],
+      "pork": true
+    },
+    {
+      "id": "cn_tw_omurice",
+      "name": "대만식 오므라이스",
+      "category": "중식",
+      "tags": ["rice", "egg"],
+      "pork": true
+    },
+    {
+      "id": "cn_chao_tofu",
+      "name": "취두부",
+      "category": "중식",
+      "tags": ["fermented", "tofu"],
+      "pork": false
+    },
+    {
+      "id": "cn_hui_guo_rou",
+      "name": "회과육(훠궈러우)",
+      "category": "중식",
+      "tags": ["stirfry", "pork", "spicy_optional"],
+      "pork": true
+    },
+    {
+      "id": "st_margherita_pizza",
+      "name": "마르게리타 피자",
+      "category": "양식",
+      "tags": ["pizza", "baked"],
+      "pork": false
+    },
+    {
+      "id": "st_pepperoni_pizza",
+      "name": "페퍼로니 피자",
+      "category": "양식",
+      "tags": ["pizza", "baked"],
+      "pork": true
+    },
+    {
+      "id": "st_hawaiian_pizza",
+      "name": "하와이안 피자",
+      "category": "양식",
+      "tags": ["pizza", "baked"],
+      "pork": true
+    },
+    {
+      "id": "st_quattro_formaggi",
+      "name": "콰트로 포르마지",
+      "category": "양식",
+      "tags": ["pizza", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "st_diavola_pizza",
+      "name": "디아볼라 피자",
+      "category": "양식",
+      "tags": ["pizza", "spicy"],
+      "pork": true
+    },
+    {
+      "id": "st_aglio_olio",
+      "name": "알리오 올리오",
+      "category": "양식",
+      "tags": ["pasta", "garlic"],
+      "pork": false
+    },
+    {
+      "id": "st_carbonara",
+      "name": "까르보나라",
+      "category": "양식",
+      "tags": ["pasta", "cream"],
+      "pork": true
+    },
+    {
+      "id": "st_bolognese",
+      "name": "볼로네제",
+      "category": "양식",
+      "tags": ["pasta", "meat_sauce"],
+      "pork": true
+    },
+    {
+      "id": "st_amatriciana",
+      "name": "아마트리치아나",
+      "category": "양식",
+      "tags": ["pasta", "tomato"],
+      "pork": true
+    },
+    {
+      "id": "st_arrabbiata",
+      "name": "아라비아따",
+      "category": "양식",
+      "tags": ["pasta", "spicy", "tomato"],
+      "pork": false
+    },
+    {
+      "id": "st_pesto_pasta",
+      "name": "바질 페스토 파스타",
+      "category": "양식",
+      "tags": ["pasta", "herb"],
+      "pork": false
+    },
+    {
+      "id": "st_alfredo",
+      "name": "알프레도",
+      "category": "양식",
+      "tags": ["pasta", "cream"],
+      "pork": false
+    },
+    {
+      "id": "st_vongole",
+      "name": "봉골레",
+      "category": "양식",
+      "tags": ["pasta", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "st_lasagna",
+      "name": "라자냐",
+      "category": "양식",
+      "tags": ["baked", "pasta"],
+      "pork": true
+    },
+    {
+      "id": "st_risotto_mushroom",
+      "name": "버섯 리조또",
+      "category": "양식",
+      "tags": ["rice"],
+      "pork": false
+    },
+    {
+      "id": "st_gnocchi",
+      "name": "뇨끼",
+      "category": "양식",
+      "tags": ["pasta"],
+      "pork": false
+    },
+    {
+      "id": "st_minestrone",
+      "name": "미네스트로네",
+      "category": "양식",
+      "tags": ["soup", "veggie"],
+      "pork": false
+    },
+    {
+      "id": "st_bruschetta",
+      "name": "브루스케타",
+      "category": "양식",
+      "tags": ["bread", "antipasti"],
+      "pork": false
+    },
+    {
+      "id": "st_caprese",
+      "name": "카프레제",
+      "category": "양식",
+      "tags": ["salad", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "st_chicken_parmesan",
+      "name": "치킨 파마산",
+      "category": "양식",
+      "tags": ["fried", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "st_eggplant_parmesan",
+      "name": "가지 파마산",
+      "category": "양식",
+      "tags": ["vegetarian", "baked"],
+      "pork": false
+    },
+    {
+      "id": "st_steak",
+      "name": "스테이크",
+      "category": "양식",
+      "tags": ["beef", "grill"],
+      "pork": false
+    },
+    {
+      "id": "st_burger",
+      "name": "버거",
+      "category": "양식",
+      "tags": ["beef"],
+      "pork": false
+    },
+    {
+      "id": "st_hotdog",
+      "name": "핫도그",
+      "category": "양식",
+      "tags": ["handheld"],
+      "pork": true
+    },
+    {
+      "id": "st_fish_and_chips",
+      "name": "피시앤칩스",
+      "category": "양식",
+      "tags": ["fried", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "st_roast_chicken",
+      "name": "로스트 치킨",
+      "category": "양식",
+      "tags": ["roast", "chicken"],
+      "pork": false
+    },
+    {
+      "id": "st_chowder_clam",
+      "name": "클램 차우더",
+      "category": "양식",
+      "tags": ["soup", "seafood"],
+      "pork": false
+    },
+    {
+      "id": "st_tomato_soup",
+      "name": "토마토 수프",
+      "category": "양식",
+      "tags": ["soup"],
+      "pork": false
+    },
+    {
+      "id": "st_caesar_salad",
+      "name": "시저 샐러드",
+      "category": "양식",
+      "tags": ["salad", "greens"],
+      "pork": false
+    },
+    {
+      "id": "st_cobb_salad",
+      "name": "콥 샐러드",
+      "category": "양식",
+      "tags": ["salad", "egg", "bacon"],
+      "pork": true
+    },
+    {
+      "id": "st_french_toast",
+      "name": "프렌치 토스트",
+      "category": "양식",
+      "tags": ["breakfast", "sweet"],
+      "pork": false
+    },
+    {
+      "id": "st_pancakes",
+      "name": "팬케이크",
+      "category": "양식",
+      "tags": ["breakfast", "dessert"],
+      "pork": false
+    },
+    {
+      "id": "st_waffles",
+      "name": "와플",
+      "category": "양식",
+      "tags": ["breakfast", "dessert"],
+      "pork": false
+    },
+    {
+      "id": "st_avocado_toast",
+      "name": "아보카도 토스트",
+      "category": "양식",
+      "tags": ["bread", "breakfast"],
+      "pork": false
+    },
+    {
+      "id": "st_club_sandwich",
+      "name": "클럽 샌드위치",
+      "category": "양식",
+      "tags": ["sandwich"],
+      "pork": true
+    },
+    {
+      "id": "st_blt",
+      "name": "BLT 샌드위치",
+      "category": "양식",
+      "tags": ["sandwich", "bacon"],
+      "pork": true
+    },
+    {
+      "id": "st_grilled_cheese",
+      "name": "그릴드 치즈",
+      "category": "양식",
+      "tags": ["sandwich", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "st_tuna_melt",
+      "name": "튜나 멜트",
+      "category": "양식",
+      "tags": ["sandwich", "cheese"],
+      "pork": false
+    },
+    {
+      "id": "st_chicken_wrap",
+      "name": "치킨 랩",
+      "category": "양식",
+      "tags": ["wrap", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "st_lobster_roll",
+      "name": "랍스터 롤",
+      "category": "양식",
+      "tags": ["seafood", "handheld"],
+      "pork": false
+    },
+    {
+      "id": "st_shrimp_scampi",
+      "name": "쉬림프 스캄피",
+      "category": "양식",
+      "tags": ["seafood", "pasta"],
+      "pork": false
+    },
+    {
+      "id": "st_salmon_steak",
+      "name": "연어 스테이크",
+      "category": "양식",
+      "tags": ["seafood", "grill"],
+      "pork": false
+    },
+    {
+      "id": "st_baked_salmon",
+      "name": "연어 오븐구이",
+      "category": "양식",
+      "tags": ["seafood", "baked"],
+      "pork": false
+    },
+    {
+      "id": "st_chicken_piccata",
+      "name": "치킨 피카타",
+      "category": "양식",
+      "tags": ["chicken", "lemon"],
+      "pork": false
+    },
+    {
+      "id": "st_roast_beef_sandwich",
+      "name": "로스트비프 샌드위치",
+      "category": "양식",
+      "tags": ["sandwich", "beef"],
+      "pork": false
+    },
+    {
+      "id": "st_bbq_ribs",
+      "name": "바비큐 립",
+      "category": "양식",
+      "tags": ["pork", "bbq"],
+      "pork": true
+    },
+    {
+      "id": "st_texas_brisket",
+      "name": "텍사스 브리스킷",
+      "category": "양식",
+      "tags": ["beef", "bbq"],
+      "pork": false
+    },
+    {
+      "id": "st_pulled_pork",
+      "name": "풀드포크",
+      "category": "양식",
+      "tags": ["pork", "bbq"],
+      "pork": true
+    },
+    {
+      "id": "st_newyork_cheesecake",
+      "name": "뉴욕 치즈케이크",
+      "category": "양식",
+      "tags": ["dessert"],
+      "pork": false
+    },
+    {
+      "id": "st_apple_pie",
+      "name": "애플파이",
+      "category": "양식",
+      "tags": ["dessert", "fruit"],
+      "pork": false
+    }
+  ]
+}
