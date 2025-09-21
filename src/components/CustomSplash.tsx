@@ -31,7 +31,7 @@ export default function CustomSplash({ visible }: Props) {
       />
       <View style={styles.center}>
         <Image
-          source={require("@/assets/images/bappick.png")}
+          source={require("@/assets/images/bappick-splash.png")}
           style={styles.logo}
         />
         {/* <View style={styles.logo} />

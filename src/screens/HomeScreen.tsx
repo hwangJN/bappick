@@ -20,6 +20,16 @@ export default function HomeScreen() {
     setCategories,
   } = useAppStore();
   const categories = useAppStore.getState().getAllCategories();
+  const sortedCategories = React.useMemo(() => {
+    const PRIORITY = ["한식", "중식", "일식", "양식"] as const;
+    const rank = new Map(PRIORITY.map((v, i) => [v as string, i]));
+    return [...categories].sort((a, b) => {
+      const ai = rank.has(a) ? (rank.get(a) as number) : Infinity;
+      const bi = rank.has(b) ? (rank.get(b) as number) : Infinity;
+      if (ai !== bi) return ai - bi;
+      return a.localeCompare(b, "ko");
+    });
+  }, [categories]);
   const [showAlert, setShowAlert] = React.useState(false);
   const [current, setCurrent] = React.useState<ReturnType<typeof pickMenu>>(
     () => undefined
@@ -52,7 +62,7 @@ export default function HomeScreen() {
           <Text style={styles.title}>오늘 뭐 먹지?</Text>
           <View style={{ height: 12 }} />
           <CategoryChips
-            categories={categories}
+            categories={sortedCategories}
             selected={settings.categories}
             onChange={setCategories}
           />
